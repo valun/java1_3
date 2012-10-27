@@ -8,18 +8,20 @@ package spisok1;
  *
  * @author Home
  */
-public class Spisok1 {
+public class java1_31 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        
-        werwerwer
-                
-                
-                rwer
+
+        Spisok y = new Spisok();
+        y.addEl(2);
+        y.addEl(5);
+        y.addEl(3);
+        y.addEl(7);
+        y.addEl(8);
+        System.out.println(y.showEl(5));
     }
 }
